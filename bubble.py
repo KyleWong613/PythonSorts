@@ -10,7 +10,8 @@ def bubble_sort(array):
             # than the next element
             if arr[j] > arr[j + 1]:
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
-# Press the green button in the gutter to run the script.
+
+
 if __name__ == '__main__':
     arr = [64, 34, 25, 12, 22, 11, 90]
     bubble_sort(arr)
